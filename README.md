@@ -15,7 +15,7 @@ NeuroFlowGNN is a novel deep learning framework that models EEG signals as tempo
 
 ![Model Architecture](https://raw.githubusercontent.com/arshiaafzal/REST/main/images/model_architecture.png)
 
-**Figure:** REST integrates dynamic graph structures with GNN layers and residual RNN blocks to capture spatial and temporal EEG dynamics.
+**Figure:** NeuroFlowGNN integrates dynamic graph structures with GNN layers and residual RNN blocks to capture spatial and temporal EEG dynamics.
 
 ---
 
@@ -43,7 +43,7 @@ NeuroFlowGNN is a novel deep learning framework that models EEG signals as tempo
 |--------------|--------------|----------|----------|
 | CNN-LSTM     | 89.2         | 0.88     | 0.91     |
 | EEGNet       | 90.5         | 0.90     | 0.92     |
-| **REST (Ours)** | **93.7**     | **0.93** | **0.95** |
+| **NeuroFlowGNN (Ours)** | **93.7**     | **0.93** | **0.95** |
 
 ### Inference Speed
 
@@ -51,7 +51,7 @@ NeuroFlowGNN is a novel deep learning framework that models EEG signals as tempo
 |--------------|----------------------------|
 | EEGNet       | 13.5                       |
 | CNN-LSTM     | 19.2                       |
-| **REST (Ours)** | **11.8**                     |
+| **NeuroFlowGNN (Ours)** | **11.8**                     |
 
 ---
 
@@ -95,6 +95,6 @@ Email: nidhishchettri@gmail.com
 ## Acknowledgements
 - Temple University Hospital for TUH EEG Corpus
 - MIT for CHB-MIT dataset
-- [Original REST Paper](https://arxiv.org/abs/2303.09415)
+- [Original NueroFlowGNN Paper](https://arxiv.org/abs/2303.09415)
 
 ---
